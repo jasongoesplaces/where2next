@@ -73,17 +73,17 @@ tlOpen.add("preOpen")
 //CLOSE TIMELINE
 tlClose.add("close")
   .to(menuTop, 0.2, {
-  backgroundColor: "#6295ca", ease: Power4.easeInOut, onComplete: function() {
+  backgroundColor: "#5c5b5b", ease: Power4.easeInOut, onComplete: function() {
     logo.css('z-index','26');
     closeTrigger.css('z-index','5');
  openTrigger.css('visibility','visible');
   }
 }, "close")
 .to(menuMiddle, 0.2, {
-  backgroundColor: "#6295ca", ease: Power4.easeInOut
+  backgroundColor: "#5c5b5b", ease: Power4.easeInOut
 }, "close") 
 .to(menuBottom, 0.2, {
-  backgroundColor: "#6295ca", ease: Power4.easeInOut
+  backgroundColor: "#5c5b5b", ease: Power4.easeInOut
 }, "close")
   .to(menu, 0.6, {
   y: 20, opacity: 0, ease: Power4.easeOut, onComplete: function() {
