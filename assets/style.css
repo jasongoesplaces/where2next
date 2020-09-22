@@ -106,8 +106,8 @@
 	 /* position: absolute; */
 	 top: 50%;
 	 left: 50%;
-	 margin-top: -52px;
-	 margin-left: -32px;
+	 margin-top: -2.5em;
+	 margin-left: 1em;
 	 text-align: center;
 	 z-index: 10;
 }
@@ -126,20 +126,13 @@
 	 height: 100%;
 	 color: #222;
 	 font-size: 32px;
-	 line-height: 82x;
+     line-height: 82x;
 }
- .logo-badge {
-	 position: absolute;
-	 display: block;
-	 width: 24px;
-	 height: 24px;
-	 top: 6px;
-	 right: -6px;
-	 border-radius: 100%;
-	 background-color: #5c5b5b;
-	 font-size: 12px;
-	 line-height: 2;
-	 text-align: center;
+#logo-title {
+    max-width: 3em !important;
+}
+.menu-item{
+    font-size: 20pt;
 }
  .inner-container, .menu-container {
 	 position: absolute;
