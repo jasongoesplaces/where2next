@@ -1508,6 +1508,10 @@ blockquote p {
 	padding:10px 20px;
 }
 /*------btn------------------------------------------------*/
+#travelbtn{
+	margin-left: 3em
+}
+
 .btn {
 	padding: 15px 35px;
     cursor: pointer;
