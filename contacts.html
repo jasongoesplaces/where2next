@@ -138,7 +138,7 @@
                         </div>
 						<!--scroll-nav-wrap end-->							
                         <!--section  -->							
-                        <section id="sec1">
+                        <section id="sec1" style="padding: 2em 0;">
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
                                     <h3>Contact Information</h3>
@@ -155,35 +155,14 @@
                                                 <li><span>Phone :</span><a href="#">407-434-9858</a></li>
                                             </ul>
                                         </div>
-                                        <a href="#sec3" class="custom-scroll-link btn fl-btn">Say Hello</a>
+                                        <!-- <a href="#sec3" class="custom-scroll-link btn fl-btn">Say Hello</a> -->
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <!--section end  -->							
-                        <div class="sec-dec"></div>
-                        <!--section   -->							
-                        <section id="sec2">
-                            <div class="container small-container">
-                                <div class="section-title fl-wrap">
-                                    <h3>Studio Location</h3>
-                                    <h4>Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa</h4>
-                                    <!-- <div class="section-number">02.</div> -->
-                                </div>
-                                <div class="column-wrapper_item fl-wrap">
-                                    <div class="column-wrapper_text fl-wrap">
-                                        <div class="map-container">
-                                            <div id="singleMap" data-latitude="40.7427837" data-longitude="-73.11445617675781"></div>
-                                        </div>
-                                        <p>Praesent nec leo venenatis elit semper aliquet id ac enim. Maecenas nec mi leo. Etiam venenatis ut dui non hendrerit. Integer dictum, diam vitae blandit accumsan, dolor odio tempus arcu, vel ultrices nisi nibh vitae ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius lacinia vestibulum. Aliquam lobortis facilisis tellus, in facilisis ex vehicula ac. In malesuada quis turpis vel viverra.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!--section end  -->							
-                        <div class="sec-dec"></div>
                         <!--section -->							
-                        <section id="sec3">
+                        <section id="sec3" style="padding: 2em 0;">
                             <div class="container small-container">
                                 <div class="section-title fl-wrap">
                                     <h3>Get In Touch</h3>
@@ -199,7 +178,7 @@
                                                     <input type="text" name="entry.1435820077" id="entry.1435820077" placeholder="Your Name *" value=""/>
                                                     <input type="text"  name="entry.452703418" id="entry.452703418" placeholder="Email Address *" value=""/>
                                                     <textarea name="entry.1381990944"  id="entry.1381990944" cols="40" rows="3" placeholder="Your Message:"></textarea>
-                                                    <input type="submit" value="Submit" class="btn float-btn flat-btn color-bg" id="submit">Send Message </input>
+                                                    <button type="submit" value="Submit" class="btn float-btn flat-btn color-bg" id="submit">Send Message </button>
                                                 </fieldset>
                                             </form>
                                             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
@@ -215,7 +194,7 @@
                                 <div class="footer-inner fl-wrap">
                                     <!-- policy-box-->
                                     <div class="policy-box">
-                                        <span>&#169; Kotlis 2019  /  All rights reserved. </span>
+                                        <span>&#169; Where 2 Next? 2020  /  All rights reserved. </span>
                                     </div>
                                     <!-- policy-box end-->
                                     <a href="#" class="to-top-btn to-top">Back to top <i class="fal fa-long-arrow-up"></i></a>
@@ -295,7 +274,7 @@
         <script type="text/javascript">
         $('#gform').on('submit', function(e) {
         $('#gform *').fadeOut(2000);
-        $('#gform').prepend('Thanks for your message! We will be in touch soon!');
+        $('#gform').prepend('<h4 style="color:white; font-size: 12pt">Thanks for your message! We will be in touch soon!</h4>');
         });
         </script>        
     </body>
