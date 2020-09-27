@@ -194,14 +194,15 @@
                                     <div class="column-wrapper_text fl-wrap">
                                         <div id="contact-form" class="fl-wrap">
                                             <div id="message"></div>
-                                            <form  class="custom-form" action="php/contact.php" name="contactform" id="contactform">
+                                            <form name="gform" id="gform" enctype="text/plain" class="custom-form" action="https://docs.google.com/forms/d/194o8IYeysv6ZHujz1Hwg8KsRi-x0_wDxFs8_AJeMgss/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                                                 <fieldset>
-                                                    <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
-                                                    <input type="text"  name="email" id="email" placeholder="Email Address *" value=""/>
-                                                    <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
-                                                    <button class="btn float-btn flat-btn color-bg" id="submit">Send Message </button>
+                                                    <input type="text" name="entry.1435820077" id="entry.1435820077" placeholder="Your Name *" value=""/>
+                                                    <input type="text"  name="entry.452703418" id="entry.452703418" placeholder="Email Address *" value=""/>
+                                                    <textarea name="entry.1381990944"  id="entry.1381990944" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                                                    <input type="submit" value="Submit" class="btn float-btn flat-btn color-bg" id="submit">Send Message </input>
                                                 </fieldset>
                                             </form>
+                                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -289,6 +290,13 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
-        <script type="text/javascript" src="js/map.js"></script>        
+        <script type="text/javascript" src="js/map.js"></script>
+        <script type="text/javascript">var submitted=false;</script>
+        <script type="text/javascript">
+        $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your submission has been processed...');
+        });
+        </script>        
     </body>
 </html>
