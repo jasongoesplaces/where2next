@@ -2822,7 +2822,7 @@ section.single-content-section {
 /* ---------contacts--------------------------------------*/
 .contact-details {
 	text-align:left;
-	margin-top:50px;
+	margin-top:0;
 }
 .contact-details ul li {
 	text-align:left;
