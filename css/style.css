@@ -136,6 +136,13 @@ blockquote p {
 	font-weight: 600;
 }
 /*--------------General--------------------------------------*/
+
+.profiles {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
 #main {
 	height: 100%;
 	width: 100%;
@@ -3917,8 +3924,23 @@ section {
 .fs-slider2 .swiper-container {
 	height:100%;
 }
+.profiles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.media-container{
+	background-image: url(../images/Where\ 2\ Next_\ Title\ Sequence.mp4)
+}
+
 }
 @media only screen and (max-width: 530px) {
+.profiles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 .follow-wrap, .home-main_title {
     padding-left:20px;
 }
