@@ -3929,9 +3929,6 @@ section {
 	flex-direction: column;
 	justify-content: space-around;
 }
-.media-container{
-	background-image: url(../images/Where\ 2\ Next_\ Title\ Sequence.mp4)
-}
 
 }
 @media only screen and (max-width: 530px) {
