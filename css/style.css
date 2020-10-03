@@ -4050,3 +4050,21 @@ section {
 	letter-spacing: 1px;
 	opacity: 0.8;
   }
+
+  .followT{
+	border-color: #fff;
+	color: #fff; 
+	font-size: 1em;
+	margin-right: 0.6em;
+	text-transform: uppercase;
+	/* margin: 10px 0; */
+	/* display: inline-block; */
+	opacity: 0.65;
+	/* width: 10%; */
+  }
+
+  .follow2{
+	font-size: 1.3em;
+	margin-bottom: 0.8em;
+	margin-right: 0.4em;
+  }
