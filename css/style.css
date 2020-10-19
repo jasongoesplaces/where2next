@@ -1716,6 +1716,15 @@ blockquote p {
 	color:#fff;
 	font-size:11px;
 }
+
+/* ------about---------------------------------------------------------------- */ 
+.profiles{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
 /* ------portfolio------------------------------------------------------------ */ 
 .ff_panel-conainer {
 	z-index:1;
@@ -3707,6 +3716,12 @@ section.single-content-section {
 #portfolio_horizontal_container  .portfolio_item .thumb-info h3 {
     font-size:18px;
 }
+.profiles{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
 }
 @media only screen and (max-width: 640px) {
 .fw-carousel .swiper-slide img , .fw-carousel .swiper-slide   {
@@ -3937,6 +3952,12 @@ section {
 }
 .video-container{
 	display: none;
+}
+.profiles{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
