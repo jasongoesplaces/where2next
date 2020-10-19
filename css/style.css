@@ -136,13 +136,6 @@ blockquote p {
 	font-weight: 600;
 }
 /*--------------General--------------------------------------*/
-
-.profiles {
-	display: flex; 
-	flex-direction: row; 
-	justify-content: space-around;
-}
-
 #main {
 	height: 100%;
 	width: 100%;
@@ -3924,20 +3917,8 @@ section {
 .fs-slider2 .swiper-container {
 	height:100%;
 }
-.profiles {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 }
 @media only screen and (max-width: 530px) {
-.profiles {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
-
 .follow-wrap, .home-main_title {
     padding-left:20px;
 }
@@ -3950,6 +3931,12 @@ section {
     font-size: 38px;
     line-height: 46px;
 	padding:10px 0;
+}
+.mob-bg {
+	display: inherit;
+}
+.video-container{
+	display: none;
 }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -4049,22 +4036,4 @@ section {
 	font-size: 0.8em;
 	letter-spacing: 1px;
 	opacity: 0.8;
-  }
-
-  .followT{
-	border-color: #fff;
-	color: #fff; 
-	font-size: 1em;
-	margin-right: 0.6em;
-	text-transform: uppercase;
-	/* margin: 10px 0; */
-	/* display: inline-block; */
-	opacity: 0.65;
-	/* width: 10%; */
-  }
-
-  .follow2{
-	font-size: 1.3em;
-	margin-bottom: 0.8em;
-	margin-right: 0.4em;
   }
